@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <link rel='stylesheet' href='/stylesheets/mui.min.css' />
+  </head>
+  <body>
+  <div>
+  <div class="mui-col-md-2"></div>
+    <div class="mui-col-md-8">
+      <form method='post' action='/post'>
+          <legend>Email Info</legend>
+          <div class="mui-textfield">
+            <input name='email' type="text" placeholder="email">
+          </div>
+          <div class="mui-textfield">
+            <input name='sub' type="text" placeholder="subject">
+          </div>
+          <div class="mui-textfield">
+            <textarea name='text' placeholder="Text"></textarea>
+          </div>
+          <button type="submit" class="mui-btn mui-btn--raised">Submit</button>
+        </form>
+    </div>
+    <div class="mui-col-md-2"></div>
+  </div>
+  </body>
+  <script src='/javascripts/mui.min.js' />
+</html>
